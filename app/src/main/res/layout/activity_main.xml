@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="189dp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="-470px"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#31ACFB"
+            android:textSize="25sp"
+            android:text="Starfield" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="-40px"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#31ACFB"
+            android:textSize="25sp"
+            android:text="Library" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:background="@drawable/quotes1" />
+
+        <!--
+        <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="330dp"
+            android:layout_height="153dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90px"
+            android:id="@+id/cmdImageSlider"
+            app:auto_cycle="true"
+            app:placeholder="@drawable/img_slider"
+            app:error_image="@drawable/img_slider"
+            app:delay="0"
+            app:period="1000"
+            app:corner_radius="5" >
+        </com.denzcoskun.imageslider.ImageSlider>
+        -->
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="80px" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cmdRumah"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="10px"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logorumah" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="5px"
+                    android:fontFamily="@font/poppinsreg"
+                    android:gravity="center"
+                    android:text="Beranda"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cmdDenah"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10px"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginRight="50px"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logodenah" />
+
+                <TextView
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginRight="50px"
+                    android:layout_marginTop="5px"
+                    android:fontFamily="@font/poppinsreg"
+                    android:text="Denah"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cmdKatalog"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10px"
+                    android:layout_marginLeft="0px"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logokatalog" />
+
+                <TextView
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="5px"
+                    android:fontFamily="@font/poppinsreg"
+                    android:text="Katalog"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30px" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cmdMap"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="10px"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logomap" />
+
+                <TextView
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="5px"
+                    android:fontFamily="@font/poppinsreg"
+                    android:text="Map"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cmdScanner"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10px"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginRight="50px"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logoscanner" />
+
+                <TextView
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginRight="50px"
+                    android:layout_marginTop="5px"
+                    android:fontFamily="@font/poppinsreg"
+                    android:text="Scan"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cmdInfo"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10px"
+                    android:layout_marginLeft="0px"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logoinfo" />
+
+                <TextView
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="5px"
+                    android:fontFamily="@font/poppinsreg"
+                    android:text="Info"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

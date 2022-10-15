@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tek1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="15dp" />
+
+        <ImageView android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logoapk">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tek2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="\nKatalog Starfield Buku\n Versi 3.0 \n Januari 2021\n"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tek3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="oleh\nLuqman Al-Hakim"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tek4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="171111118@mhs.stiki.ac.id\n"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0px"
+            android:background="@drawable/logostiki"/>
+
+        <TextView
+            android:id="@+id/tek5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="\nSupported by: \nSTIKI Malang\n"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="OK" />
+    </LinearLayout>
+</LinearLayout>

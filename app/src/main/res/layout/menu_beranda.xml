@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_main2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_top2" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="-250px">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50px"
+                android:background="@drawable/img_back"
+                android:id="@+id/cmdBack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-35dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="Beranda"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="200px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="130px"
+                android:layout_marginTop="0px"
+                android:layout_marginRight="130px"
+                android:layout_marginBottom="20px"
+                android:fontFamily="@font/poppinsreg"
+                android:text="Ingin mengetahui lokasi kami melalui google maps?"
+                android:textColor="#31ACFB"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="270dp"
+                    android:layout_height="127dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="0px"
+                    android:background="@drawable/tbl_googlemaps"
+                    android:onClick="hublokasi" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50px">
+
+            <TextView
+                android:textColor="#31ACFB"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="130px"
+                android:layout_marginRight="130px"
+                android:layout_marginTop="0px"
+                android:layout_marginBottom="20px"
+                android:fontFamily="@font/poppinsreg"
+                android:text="Ingin menghubungi kami melalui nomor telepon?"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="270dp"
+                    android:layout_height="127dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="0px"
+                    android:background="@drawable/tbl_nomortelepon"
+                    android:onClick="hubtelpon" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+            android:id="@+id/buttonLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="100px"
+            android:layout_gravity="center"
+            android:text="Posisi Saya" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/textLoc1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/textLoc2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/textLoc3"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/textLoc4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:id="@+id/textLoc5"/>
+
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="100px"
+            android:layout_gravity="center"
+            android:text="Back" />
+
+        -->
+
+    </LinearLayout>
+</ScrollView>

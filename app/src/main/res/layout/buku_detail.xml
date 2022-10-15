@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BukuDetail"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="171dp"
+                android:background="#000000"
+                android:id="@+id/imgCover"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/txtJudul"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Judul judul judul judul judul judul judul judul"
+                android:layout_marginTop="10dp"
+                android:textColor="#31ACFB"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txtKategori"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Penulis penulis penulis | Penerbit penerbit penerbit"
+                android:background="#31ACFB"
+                android:padding="9dp"
+                android:fontFamily="@font/poppinsreg"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/txtDeskripsi"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreg"
+                android:textColor="#000000"
+                android:text="Deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ini deskripsi ."/>
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoreg"
+                android:textColor="#000000"
+                android:text="_______________________"/>
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreg"
+                android:textColor="#000000"
+                android:text="Scan QR Code di bawah untuk mengetahui informasi buku ini di perpustakaan kami."/>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="#000000"
+                android:id="@+id/imgQRCode"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</ScrollView>
