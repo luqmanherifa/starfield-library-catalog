@@ -1,1 +1,1 @@
-# Starfield Library: Library Catalog
+# Starfield: Library Catalog
