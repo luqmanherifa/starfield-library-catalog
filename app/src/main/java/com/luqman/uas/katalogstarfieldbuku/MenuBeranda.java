@@ -140,7 +140,7 @@ public class MenuBeranda extends AppCompatActivity {
     }
 
     public void hubtelpon(View view){
-        startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:089926011659")));
+        startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:082814231615")));
     }
 
 }
