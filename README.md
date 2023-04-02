@@ -16,7 +16,7 @@ Starfield is a library catalog app contains information about library catalog, p
   - [Poppins](https://fonts.google.com/specimen/Poppins)
   - [Roboto](https://fonts.google.com/specimen/Roboto)
 
-### Colors
+### Color
   - ![#31ACFB](https://placehold.co/20x20/31ACFB/31ACFB.png)  #31ACFB
   
 ### Tools
