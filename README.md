@@ -5,32 +5,32 @@ Starfield is a library catalog app contains information about library catalog, p
 ![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_starfield.png)
 
 ## Software
-- ### Language
+### Language
   - Java
 
-- ### Tools
+### Tools
   - Android Studio
 
 ## Design
-- ### Fonts
+### Fonts
   - [Poppins](https://fonts.google.com/specimen/Poppins)
   - [Roboto](https://fonts.google.com/specimen/Roboto)
 
-- ### Colors
+### Colors
   - ![#31ACFB](https://placehold.co/20x20/31ACFB/31ACFB.png)  #31ACFB
   
-- ### Tools
+### Tools
   - CorelDRAW
   - Figma
 
 ## Build
-- ### Platform
+### Platform
   - Android
 
-- ### Deployment
+### Deployment
   - [Appetize](https://appetize.io/app/updahqyhxqcy4xm2kcazwbii3u)
   
-- ### Date created
+### Date created
   - January 2021
   
 ## Social
