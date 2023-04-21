@@ -1,4 +1,4 @@
-# Starfield: Library Catalog
+# Starfield: Library Catalog s
 Starfield is a library catalog app contains information about library catalog, plan, and location based on Android. The project was developed for college project using Java.
 
 ## Display
